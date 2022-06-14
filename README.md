@@ -13,13 +13,9 @@
 ### DIO - Vídeos
 
 - [Mentoria #1 - Aula Inaugural](https://www.youtube.com/watch?v=mVmzdqa79dE)
-
 - [Mentoria #2 - Projeto Tecnologia Santander](https://www.youtube.com/watch?v=15fET57MB54)
-
 - [Dio Deploy](https://www.youtube.com/watch?v=9qVdt3GKNxY)
-
 - [Resolvendo Desafio de Código na Prática](https://www.youtube.com/watch?v=I8NI5QNUCe8)
-
 - [Construindo Internet Banking com Angular](https://www.youtube.com/watch?v=sn-fFe18h2k)
 
 ### Dicas
