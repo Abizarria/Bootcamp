@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Flex-Basis</title>
+
+    <style>
+        .flex-container {
+            max-width: 600px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .item {
+            background: coral;
+            color: white;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .bauto {
+            flex-basis: auto;
+        }
+
+        .b-0 {
+            flex-basis: 0;
+        }
+
+        .fg-0 {
+            flex-grow: 0;
+        }
+
+        .fg-1 {
+            flex-grow: 1;
+        }
+
+        .fg-2 {
+            flex-grow: 2;
+        }
+
+        .w100 {
+            flex-basis: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Flex Basis</h2>
+
+    <a>Auto</a>
+    <div class="flex-container">
+        <div class="item bauto fg-1">A</div>
+        <div class="item bauto fg-1">BBBBB</div>
+        <div class="item bauto fg-1">CC</div>
+        <div class="item bauto fg-2">DEF</div>
+        <div class="item bauto fg-1">GTO4</div>
+    </div>
+
+    <a>Zero</a>
+    <div class="flex-container">
+        <div class="item b-0 fg-1">AAAAAAAZZZAAAA</div>
+        <div class="item b-0 fg-1">BBBBB</div>
+        <div class="item b-0 fg-1">CC</div>
+        <div class="item b-0 fg-1">DEF</div>
+        <div class="item b-0 fg-1">GTO4</div>
+    </div>
+
+    <a>Basis + Width</a>
+    <div class="flex-container">
+        <div class="item w100 fg-2">BB<br>BBB</div>
+        <div class="item w100 fg-2">CC</div>
+        <div class="item w100 fg-2">DEF-juggfffdadfafsdfds</div>
+        <div class="item w100 fg-2">GTO4</div>
+        <div class="item w100 fg-2">AA</div>
+    </div>
+
+</body>
+</html>
