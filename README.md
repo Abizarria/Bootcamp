@@ -2,7 +2,7 @@
 
 - Introdução a Programação e Pensamento Computacional
 - Criando Primeiro Repositório no GitHub
-- Introdução a Criação de WEbsites com HTML5 e CSS3
+- Introdução a Criação de Websites com HTML5 e CSS3
 - Posicionando Elementos com Flexbox em CSS
 
 ### Links Úteis
