@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align-Self</title>
+
+    <style>
+        .flex-container {
+            display: flex;
+            max-width: 350px;
+            border: 1px solid black;
+            margin-bottom: 10px;
+            /* align-items: center; */
+        }
+
+        .align-container {
+            align-items: center;
+        }
+
+        .direction {
+            flex-direction: column;
+        }
+
+        .item {
+            background: brown;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .center {
+            align-self: center;
+        }
+
+        .start {
+            align-self: flex-start;
+        }
+
+        .end {
+            align-self: flex-end;
+        }
+
+        .stretch {
+            align-self: stretch;
+        }
+
+        .baseline {
+            align-self: baseline;
+        }
+
+        .auto {
+            align-self: auto;
+        }
+    </style>
+</head>
+<body>
+    <h2>Row</h2>
+
+    <p>Auto (Padrão)</p>
+        <div class="flex-container"> 
+            <!-- Se incluir a classe align-container ficaria igual center -->
+        <div class="item auto">AAA</div>
+        <div class="item auto">123</div>
+        <div class="item auto">Teste do align-self com texto bem grande</div>
+        <div class="item auto">Ítem 4</div>
+    </div>    
+    
+    <p>Center</p>
+    <div class="flex-container">
+        <div class="item center">AAA</div>
+        <div class="item center">123</div>
+        <div class="item center">Teste do align-self com texto bem grande</div>
+        <div class="item center">Ítem 4</div>
+    </div>
+
+    <p>Mesclado 1</p>
+    <div class="flex-container">
+        <div class="item end">AAA</div>
+        <div class="item stretch">123</div>
+        <div class="item">Teste do align-self com texto bem grande</div>
+        <div class="item start">Ítem 4</div>
+        <div class="item baseline">555</div>
+        <div class="item center">2027</div>
+    </div>
+
+    <p>Mesclado 2</p>
+    <div class="flex-container">
+        <div class="item end">AAaaaAAAAAA</div>
+        <div class="item stretch">12345</div>
+        <div class="item">Teste do align-self com texto bem grande</div>
+        <div class="item start">Ítem 4</div>
+        <div class="item baseline">555</div>
+        <div class="item center">2027</div>
+    </div>
+
+    <h2>Column</h2>
+
+    <p>Auto (Padrão)</p>
+        <div class="flex-container direction"> 
+            <!-- Se incluir a classe align-container ficaria igual center -->
+        <div class="item auto">AAA</div>
+        <div class="item auto">123</div>
+        <div class="item auto">Teste do align-self com texto bem grande</div>
+        <div class="item auto">Ítem 4</div>
+    </div>    
+    
+    <p>Center</p>
+    <div class="flex-container direction">
+        <div class="item center">AAA</div>
+        <div class="item center">123</div>
+        <div class="item center">Teste do align-self com texto bem grande</div>
+        <div class="item center">Ítem 4</div>
+    </div>
+
+    <p>Mesclado 1</p>
+    <div class="flex-container direction">
+        <div class="item end">AAA</div>
+        <div class="item stretch">123</div>
+        <div class="item">Teste do align-self com texto bem grande</div>
+        <div class="item start">Ítem 4</div>
+        <div class="item baseline">555</div>
+        <div class="item center">2027</div>
+    </div>
+
+    <p>Mesclado 2</p>
+    <div class="flex-container direction">
+        <div class="item end">AAaaaAAAAAA</div>
+        <div class="item stretch">12345</div>
+        <div class="item">Teste do align-self com texto bem grande</div>
+        <div class="item start">Ítem 4</div>
+        <div class="item baseline">555</div>
+        <div class="item center">2027</div>
+    </div>
+</body>
+</html>
