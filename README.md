@@ -11,6 +11,7 @@
 - [MarkDown - Sintaxe Básica](https://www.markdownguide.org/basic-syntax/)
 - [Git - Instalação e Principais Comandos](https://comandosgit.github.io/#sharing)
 - [POO - Programação Orientada a Objetos](https://www.devmedia.com.br/os-4-pilares-da-programacao-orientada-a-objetos/9264)
+- [VS Code - Como Instalar, Usar e Costumizar](https://blog.betrybe.com/ferramentas/vs-code-guia-completo/#:~:text=Adicionando%20ao%20PATH&text=Abra%20seu%20VS%20Code%20e,pelo%20comando%20code%20no%20terminal.)
 - [Comandos e Tags do HTML5 ](https://www.devmedia.com.br/comandos-e-tags-html5/23618)
 
 ### DIO - Vídeos
