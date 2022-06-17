@@ -2,4 +2,14 @@
 
 - ### Posicionando elementos com Flexbox em CSS
   
-  - Exemplos desenvolvidos durante o curso
+  - Introdução ao Flexbox
+  
+  - Fundamentos do Flexbox - Parte 1
+  
+  - Fundamentos do Flexbox - parte 2
+  
+  - Projeto Integrador
+  
+  
+
+- ### Exemplos desenvolvidos durante o curso
