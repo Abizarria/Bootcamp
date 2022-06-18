@@ -12,4 +12,4 @@
   
   
 
-- ### Exemplos desenvolvidos durante o curso
+- ### Exercícios desenvolvidos durante o curso

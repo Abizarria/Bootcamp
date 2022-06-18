@@ -1,0 +1,7 @@
+.principal {
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 10%;
+    min-width: 320px;
+}
