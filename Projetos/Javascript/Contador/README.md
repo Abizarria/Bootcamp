@@ -4,8 +4,9 @@
   
   Integração de um código Javascript com uma página HTML.
   
-  - Implementar eventos utilizando o método `addEventListener`
-  - Criar condições que desabilitam o botão de incrementar ou decrementar quando `count` chegar a um determinado valor
-  - Alterar a cor do texto em `CURRENT-NUMBER` se `count` atingir um valor específico
+  - Implementação de limite no `count` (-10 até 10)
+  - Implementação de cores
+    - Postitivo: Azul
+    - Negativo: Vermelho
 
 

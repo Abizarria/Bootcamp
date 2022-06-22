@@ -22,6 +22,7 @@
 - [Resolvendo Desafio de Código na Prática](https://www.youtube.com/watch?v=I8NI5QNUCe8)
 - [Construindo Internet Banking com Angular](https://www.youtube.com/watch?v=sn-fFe18h2k)
 - [Como Criar Componenetes Reutilizáveis em Angular](https://www.youtube.com/watch?v=KImNNTuzhwQ)
+- [Machine Learning Day](https://www.youtube.com/watch?v=DAaTjE1hhsw)
 
 ### Dicas
 

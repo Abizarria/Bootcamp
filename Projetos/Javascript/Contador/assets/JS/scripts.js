@@ -1,17 +1,42 @@
-let count = 0;
+//let count = 0;
 
-const CURRENT_NUMBER = document.getElementById('currentNumber');
+//const CURRENT_NUMBER = document.getElementById('currentNumber');
+
+//function increment() {
+//	count++;
+//	CURRENT_NUMBER.innerHTML = count;
+//}
+
+//function decrement() {
+//	count--;
+//	CURRENT_NUMBER.innerHTML = count;
+//}
+
+//function test() {
+//	kdowkdpo;
+//}
+
+var currentNumberWrapper = document.getElementById("currentNumber")
+var currentNumber = 0
 
 function increment() {
-	count++;
-	CURRENT_NUMBER.innerHTML = count;
+	if (currentNumber < 10) {
+		currentNumber = currentNumber + 1
+		currentNumberWrapper.innerHTML = currentNumber
+
+		if (currentNumber > 0) {
+			document.getElementById('currentNumber').style.color = 'blue'
+		}
+	}		
 }
 
 function decrement() {
-	count--;
-	CURRENT_NUMBER.innerHTML = count;
-}
-
-function test() {
-	kdowkdpo;
+	if (currentNumber > -10) {
+		currentNumber = currentNumber - 1
+		currentNumberWrapper.innerHTML = currentNumber
+			
+		if (currentNumber < 0) {
+			document.getElementById('currentNumber').style.color = 'red'
+		}
+	} 
 }

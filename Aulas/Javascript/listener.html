@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addEventListener</title>
+
+    <style>
+        .counts {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        .button {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Teste do método "addEventListener"</h1>
+
+    <div class="counts">
+        <h2 id="count_1">01 - __</h2>
+        <h2 id="count_2">02 - __</h2>
+    </div>    
+    
+    <div class="button">
+        <button id="btn_add">Add</button>
+        <button id="btn_run">Run</button>
+        <button id="btn_rem">Sub</button>
+    </div>
+    
+    <script>
+        document.querySelector("#btn_add").addEventListener('click', event_add)
+        document.querySelector("#btn_rem").addEventListener('click', event_rem)
+        
+        function event_add() {
+            let active = document.querySelector("#btn_run")
+            active.addEventListener('click', show_count1)
+            active.addEventListener('click', show_count2)
+        }
+
+        function event_rem() {
+            document.querySelector("#btn_run").removeEventListener('click', show_count2)
+        }
+
+        function show_count1() {
+            let hoje = new Date()
+            document.querySelector("#count_1").textContent = hoje.getMilliseconds()
+        }
+
+        function show_count2() {
+            let hoje = new Date()
+            document.querySelector("#count_2").textContent = hoje.getMilliseconds()
+        }
+
+    </script></body>
+</html>
