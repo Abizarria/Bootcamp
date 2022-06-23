@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    margin: 0;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    background: url('./Images/Fundo.png');
+    background-size: cover;
+    display: flex;
+}
+
+.image-1 img {
+    display: flex;
+    position: absolute;
+    top: 15vh;
+    left: 6vw;
+    width: 60%;
+    min-width: 900px;
+    border: 1px solid gray;
+}        
+
+.login-box {
+    display: flex;
+    position: absolute;
+    top: 25vh;
+    right: 6vw;
+    background-color: lightgrey;
+    width: 20%;
+    min-width: 300px;
+    padding: 1vw 1vh;
+    border: 1px solid gray;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-box img {
+    margin: 2vh;
+}
+
+.login-box a {
+    font-size: 18px;
+    margin: 2vh;
+}
+
+.profile-img {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 8rem;
+}
+
+.profile-log {
+    background-color: rgb(0, 110, 255);
+    color: #ffffff;
+    border: 1px solid gray;
+    padding: 6px 9px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.change-log {
+    font-size: 17px;
+}
+
+.change-log span {
+    color: #0062f6;
+}
+
+@media (max-width: 1440px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .login-box {
+        width: 70%;
+        left: 15%;
+    }
+
+    .image-1 {
+        display: none;
+    }
+}
