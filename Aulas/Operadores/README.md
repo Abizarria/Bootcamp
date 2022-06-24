@@ -1,5 +1,3 @@
-# Sintaxe e Operadores
-
 ## Santander bootcamp Fullstack Developer - DIO
 - ### Sintaxe e Operadores
     - Crie uma função que recebe dois números como parâmetros.
